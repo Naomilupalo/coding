@@ -27,7 +27,7 @@ body{
 /* styles.css */
 .video-container {
     position: relative;
-    max-width: 800px;
+    max-width: 100px;
     margin: 0 auto;
 }
 
