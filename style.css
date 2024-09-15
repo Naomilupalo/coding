@@ -207,6 +207,9 @@ body{
     margin-left: 20px;
       flex: 1; /* Allow text to take up the remaining space */
     margin-right: 20px;
+      justify-content: space-between;
+    align-items: center;
+    padding: 50px
 }
 .myimage {
     border-radius: 50%;
