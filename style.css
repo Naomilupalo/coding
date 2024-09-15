@@ -125,7 +125,7 @@ body{
 }
 
 
-.video-container {flex-direction:right;
+.video-container {float:right;
     position: relative;
     padding-bottom: 56.25%; 
     height: 0;
