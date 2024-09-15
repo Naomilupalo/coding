@@ -64,13 +64,13 @@ body{
     }
     
     .hero-text h1 {
-    font-size: 5rem;
+    font-size: 3rem;
         color:blue;
     }
     
     .hero-text p {
     margin-top: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
     }
     
     .cta-buttons {
