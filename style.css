@@ -1,5 +1,5 @@
 body{
-    
+    margin:20px;
     font-family: 'Times New Roman', Times, serif;
     height: 100vh;
     
@@ -8,12 +8,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background: #f4f4f4;
     }
     
     .navbar-left .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -23,7 +23,7 @@ body{
     margin-left: 20px;
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 2rem;
     }
     
     .navbar-right .sign-up {
@@ -33,6 +33,7 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+        margin-right:20px;
     }
 
 
@@ -53,6 +54,37 @@ body{
 .scroll-to-top:hover {
     background-color: #0056b3;
 }
+ .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #b7cede;
+    }
+    
+    .hero-text h1 {
+    font-size: 3rem;
+        color:blue;
+    }
+    
+    .hero-text p {
+    margin-top: 20px;
+    font-size: 2rem;
+    }
+    
+    .cta-buttons {
+    margin-top: 20px;
+    }
+    
+    .cta-buttons .book-now, .cta-buttons .play-video {
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; 
@@ -110,14 +142,7 @@ body{
     margin-right: 10px;
     color: blue;
 }
-.head{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    font-size: 4rem;
-    margin-top: 20px;
-    justify-content: center;
-    flex:1;
-}
+
 .container {
     margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -174,24 +199,7 @@ body{
     justify-content: center;
     background-color: #fcfcfc;
 }
-.parag {
 
-    justify-content: start;
-    font-size: 20px;
-    flex:1;
-    margin-left:10px;
-    
-
-}
-.intro{
-    flex-direction: column;
-    margin-left: 20px;
-      flex: 1; /* Allow text to take up the remaining space */
-    margin-right: 20px;
-      justify-content: space-between;
-    align-items: center;
-    padding: 50px
-}
 .myimage {
     border-radius: 50%;
     margin-top: 20px;
