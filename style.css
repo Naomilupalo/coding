@@ -59,7 +59,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     background-color: #b7cede;
     }
     
@@ -69,12 +69,12 @@ body{
     }
     
     .hero-text p {
-    margin-top: 20px;
+    margin-top:5px;
     font-size: 2rem;
     }
     
     .cta-buttons {
-    margin-top: 20px;
+    margin-top: 10px;
     }
     
     .cta-buttons .book-now, .cta-buttons .play-video {
