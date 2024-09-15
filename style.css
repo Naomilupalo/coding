@@ -24,6 +24,7 @@ body{
     text-decoration: none;
     color: black;
     font-size: 3rem;
+        font-weight:bold;
     }
     
     .navbar-right .sign-up {
@@ -33,7 +34,7 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-        margin-right:20px;
+        margin-right:10px;
     }
 
 
@@ -85,7 +86,7 @@ body{
     margin-right: 10px;
     }
 
-.hero-video-container {
+.hero-video-container {flex-direction:right;
     position: relative;
     padding-bottom: 56.25%; 
     height: 0;
