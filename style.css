@@ -6,6 +6,24 @@ body{
 .main-container {
     margin-bottom: 50px;
 }
+/* Style for the Scroll to Top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hide by default */
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; 
