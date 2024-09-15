@@ -10,13 +10,14 @@ body{
     overflow: hidden;
     background-color:wheat;
     position: relative;
-    top: 0;
+    top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     padding: 30px;
+    margin-right:10px;
 }
 
 #button {
@@ -166,6 +167,17 @@ body{
     text-decoration: none;
     margin-left: 20px;
     color: blue;
+}
+    @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller minimum width */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack items in a single column */
+    }
 }
 .signin {
     background-color: wheat;
