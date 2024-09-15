@@ -9,7 +9,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #f4f4f4;
+    background: wheat;
     }
     
     .navbar-left .logo {
@@ -59,7 +59,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background-color: #b7cede;
     }
     
