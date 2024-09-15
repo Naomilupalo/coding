@@ -222,6 +222,8 @@ video {
 .intro{
     flex-direction: column;
     margin-left: 20px;
+      flex: 1; /* Allow text to take up the remaining space */
+    margin-right: 20px;
 }
 .myimage {
     border-radius: 50%;
