@@ -68,10 +68,17 @@ body{
             padding: 20px;
         }
 
-        .main .text {
+        .main .text h1{font-size:30px;
             flex: 1;
             padding-right: 20px;
+                       color:blue;
         }
+ .main .text{  flex: 1;
+            padding-right: 20px;
+             font-size:20px;
+             
+     
+
 
         .main .video {
             flex: 1;
@@ -237,7 +244,7 @@ body{
     margin: auto;
 }
 .box-container {
-    display: flex;
+    display: grid;
     gap: 5px; 
     flex-wrap: wrap; 
     max-width: 1200px; 
