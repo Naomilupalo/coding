@@ -245,7 +245,7 @@ body{
     margin: auto;
 }
 .box-container {
-    display: grid;
+    display: flex;
     gap: 5px; 
     flex-wrap: wrap; 
     max-width: 1200px; 
@@ -298,7 +298,7 @@ body{
     text-align: center; 
 }
 .main-services {grid-template-columns: repeat(6,1fr);
-    display: grid;
+    display: flex;
     padding: 2rem;
     background-color: #fcfcfc;
     color: #3308a8;
