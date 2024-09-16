@@ -258,16 +258,17 @@ body{
 
 
 .box {grid-template-columns: repeat(4,1fr);
+      gap:10px;
     background-color: #ffffff; 
     border: 1px solid #ddd; 
     border-radius: 8px; 
     width: 300px; 
     height: 400px; 
-    display: flex;
+    display: grid;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    padding: ;
+    padding:20px ;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
